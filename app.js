@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require('express')
 const app = express()
 const port = 3000
@@ -13,7 +15,6 @@ app.listen(port, () => {
 
 
 function sendSMS() {
-  require('dotenv').config()
 
   const accountSid = process.env.TWILIO_ACCOUNT_SID;
   const authToken = process.env.TWILIO_AUTH_TOKEN;
