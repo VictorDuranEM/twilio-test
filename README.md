@@ -3,10 +3,10 @@
 Provide a .env file with the following properties
 
 ```properties
-TWILIO_ACCOUNT_SID=
-TWILIO_AUTH_TOKEN=
-FROM_PHONE=
-TO_PHONE=
+TWILIO_ACCOUNT_SID=''
+TWILIO_AUTH_TOKEN=''
+FROM_PHONE=''
+TO_PHONE=''
 ```
 
 Run the following commands
