@@ -4,6 +4,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
   sendSMS()
+  res.send('Message send!')
 })
 
 app.listen(port, () => {
